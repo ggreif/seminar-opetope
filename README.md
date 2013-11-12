@@ -93,6 +93,8 @@ Operator categories: http://arxiv.org/pdf/1302.5756.pdf
 
 Symmetric monoidal closed, yes, but cartesian?
 
+ - Gambino and Joyal: http://www1.maths.leeds.ac.uk/~pmtng/Research/Lectures/gambino-bmc.pdf
+
 Excursion: Lambda Calculus
 ==========================
 
