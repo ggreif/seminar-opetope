@@ -17,7 +17,7 @@ Many People
 
 
 
-Multitopes – Makkay
+Multitopes – Makkai
 
 "positive-to-one computads" – Marek Zawadowski, arXiv http://arxiv.org/pdf/0708.2658.pdf
 http://arxiv.org/pdf/1011.2374.pdf
@@ -73,10 +73,14 @@ Identity morphism?
 Composition
 ===========
 
+"pointer" tree to mark a unit branch
+
+then graft
 
 Substitution
 ============
 
+mark an n-ary node, swap it for an n-ary tree
 
 Cartesian Closure
 =================
