@@ -88,3 +88,5 @@ Cartesian Closure
 Tensor product on operads http://arxiv.org/pdf/math/0701293.pdf
 
 Boardman-Vogt tensoring: http://arxiv.org/pdf/1302.3711.pdf
+
+Operator Categories: http://arxiv.org/pdf/1302.5756.pdf
