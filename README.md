@@ -17,11 +17,12 @@ Many People
 
 
 
-Multitopes -- Makkay
+Multitopes – Makkay
 
-Marek Zawadowski, arXiv http://arxiv.org/pdf/0708.2658.pdf
+"positive-to-one computads" – Marek Zawadowski, arXiv http://arxiv.org/pdf/0708.2658.pdf
+http://arxiv.org/pdf/1011.2374.pdf
 
-Joachim Kock, et al. arXiv
+Joachim Kock, et al. arXiv http://arxiv.org/pdf/0706.1033.pdf
 
 
 Krzysztof Kapulkin
@@ -47,7 +48,35 @@ Freely decorate with disks, adhering to rule:
 
 Translate to tree in the (n+1)th dimension
 
- - branch =|
+ - branch ⊣
  - dot ⇒ (unit) branch
  - disk ⇒ dot
 
+
+Inductive Datatypes
+===================
+
+Finster gives data type + typechecker
+
+But intrinsic definition of `Zoom`s possible
+
+
+Category of Opetopes
+====================
+
+Similarly defined as the category of singular complexes ∆
+
+Morphisms are face maps
+
+Identity morphism?
+
+Composition
+===========
+
+
+Substitution
+============
+
+
+Cartesian Closure
+=================
