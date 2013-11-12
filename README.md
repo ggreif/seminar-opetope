@@ -84,3 +84,5 @@ mark an n-ary node, swap it for an n-ary tree
 
 Cartesian Closure
 =================
+
+Tensor product on operads http://arxiv.org/pdf/math/0701293.pdf
