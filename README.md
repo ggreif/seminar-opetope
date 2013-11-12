@@ -41,13 +41,13 @@ Zooms and Complexes
 
 Input data: (planar) trees (the nth dimension)
 
-Freely decorate with disks (adhere to rules)
+Freely decorate with disks, adhering to rule:
 
- - disk must cut branch, but nothing else
+ - disk must cut branch(es), but nothing else
 
 Translate to tree in the (n+1)th dimension
 
-branch =|
-dot => (unit) branch
-disk => dot
+ - branch =|
+ - dot ⇒ (unit) branch
+ - disk ⇒ dot
 
