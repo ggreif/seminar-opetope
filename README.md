@@ -82,16 +82,16 @@ Substitution
 
 mark an n-ary node, swap it for an n-ary tree
 
-Cartesian Closure
+Can we Obtain Cartesian Closure?
 =================
 
 Tensor product on operads http://arxiv.org/pdf/math/0701293.pdf
 
 Boardman-Vogt tensoring: http://arxiv.org/pdf/1302.3711.pdf
 
-Operator Categories: http://arxiv.org/pdf/1302.5756.pdf
+Operator categories: http://arxiv.org/pdf/1302.5756.pdf
 
-But closed, yes, but cartesian?
+Symmetric monoidal closed, yes, but cartesian?
 
 Excursion: Lambda Calculus
 ==========================
