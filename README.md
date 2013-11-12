@@ -8,7 +8,7 @@ Seminar 2013-11-19
 Origin
 ======
 
-Baez and Dolan
+Baez and Dolan (_metatree_, _opetope_)
 
 TQFTs
 
