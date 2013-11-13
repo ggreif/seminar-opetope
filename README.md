@@ -39,12 +39,14 @@ Polynomial functors (iterated construction)
 Zooms and Complexes
 ===================
 
+https://raw.github.com/ggreif/seminar-opetope/master/zoom.svg
 
 Input data: (planar) trees (the nth dimension)
 
-Freely decorate with disks, adhering to rule:
+Freely decorate with disks, adhering to rules:
 
  - disk must cut branch(es), but nothing else
+ - every disk must capture a subtree
 
 Translate to tree in the (n+1)th dimension
 
