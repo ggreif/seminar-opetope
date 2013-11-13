@@ -98,9 +98,15 @@ Symmetric monoidal closed, yes, but cartesian?
 Excursion: Lambda Calculus
 ==========================
 
+Several notations, e.g. λ(μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
+
+let's come up with another one!
+
 ## (binary) search tree
 
 ## Abstraction / Binders
+
+deBruijn + extra sauce
 
 ## References: Identification, glueing
 
