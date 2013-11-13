@@ -39,7 +39,7 @@ Polynomial functors (iterated construction)
 Zooms and Complexes
 ===================
 
-https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg
+![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
 
 Input data: (planar) trees (the nth dimension)
 
