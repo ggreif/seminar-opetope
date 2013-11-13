@@ -118,3 +118,8 @@ glueing an input on a (constructor) application --> pattern matching
  - Klein bottle (orientation-reversing)
 
 
+## test
+
+<script type="text/javascript" src="http://www1.chapman.edu/~jipsen/mathml/ASCIIMathML.js"></script>
+
+`x^2+y_1+z_12^34`
