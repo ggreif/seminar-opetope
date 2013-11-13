@@ -123,3 +123,4 @@ glueing an input on a (constructor) application --> pattern matching
 <script type="text/javascript" src="http://www1.chapman.edu/~jipsen/mathml/ASCIIMathML.js"></script>
 
 x^2+y_1+z_12^34
+$\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
