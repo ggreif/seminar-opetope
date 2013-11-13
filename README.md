@@ -68,7 +68,7 @@ Similarly defined as the category of singular complexes ∆
 
 Morphisms are face maps
 
-Identity morphism?
+Identity morphism
 
 Composition
 ===========
@@ -81,6 +81,12 @@ Substitution
 ============
 
 mark an n-ary node, swap it for an n-ary tree
+
+Coherence conditions
+====================
+
+Automatically "type-checked"
+
 
 Can we Obtain Cartesian Closure?
 =================
