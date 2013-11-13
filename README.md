@@ -98,6 +98,14 @@ Symmetric monoidal closed, yes, but cartesian?
 Excursion: Lambda Calculus
 ==========================
 
-Binders
+Abstraction / Binders
+
+References: Identification, glueing
+
+glueing an input on a (constructor) application --> pattern matching
+
+(->) is binary type constructor
+ - profunctor (contra-/covariant)
+ - Klein bottle (orientation-reversing)
 
 
