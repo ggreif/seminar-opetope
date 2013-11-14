@@ -132,3 +132,8 @@ glueing an input on a (constructor) application --> pattern matching
 
 x^2+y_1+z_12^34
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
+
+Strata in Ωmega
+===============
+
+![Type strata](http://omega.googlecode.com/svn/wiki/Kind-hierarchy.svg)
