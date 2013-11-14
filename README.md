@@ -58,7 +58,7 @@ Translate to tree in the (n+1)th dimension
 Inductive Datatypes
 ===================
 
-Finster gives [data type](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf#page=20) + *typechecker*
+Finster gives [data type](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf#page=26) + *typechecker*
 
 But [intrinsic definition](http://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Intrinsic_vs._extrinsic_interpretations)
 of `Zoom`s is possible
