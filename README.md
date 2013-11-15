@@ -54,6 +54,12 @@ Translate to tree in the (n+1)th dimension
  - dot ⇒ (unit) branch
  - disk ⇒ dot
 
+| Input  |   | Output  |
+| -----: |:-:| :------ |
+| branch | ⊣ |         |
+| dot    | ⇒ | (unit) branch|
+| disk   | ⇒ |    dot  |
+
 
 Inductive Datatypes
 ===================
