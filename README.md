@@ -50,16 +50,30 @@ Freely decorate with disks, adhering to rules:
 
 Translate to tree in the (n+1)th dimension
 
- - branch ⊣
- - dot ⇒ (unit) branch
- - disk ⇒ dot
-
 | Input  |   | Output  |
 | -----: |:-:| :------ |
 | branch | ⊣ |         |
-| dot    | ⇒ | (unit) branch|
-| disk   | ⇒ |    dot  |
+| dot    | ⇒ | (unit) branch |
+| disk   | ⇒ |  dot    |
 
+Assembling the Complex
+-----------------------
+
+The trees have labelled branches and dots (without repetition)
+
+Zooms can be joined when the trees match, forming a _zoom complex_.
+
+Opetope
+--------
+
+A zoom complex with dimensions
+
+| -1 | -2  | ... | _n_ |
+| -: | :-: | --- | :-- |
+| O  | (.) |     | . |
+
+and a _corolla_ in the last dimension
+is called an _opetope_.
 
 Inductive Datatypes
 ===================
