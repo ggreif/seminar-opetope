@@ -41,7 +41,7 @@ Zooms and Complexes
 
 ![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
 
-Input data: (planar) trees (the nth dimension)
+Input data: rooted (planar) trees (the nth dimension)
 
 Freely decorate with disks, adhering to rules:
 
@@ -107,7 +107,7 @@ Symmetric monoidal closed, yes, but cartesian?
 Excursion: Lambda Calculus
 ==========================
 
-Several notations, e.g. λ(μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
+Several notations, e.g. λ (with μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
 
 let's come up with another one!
 
