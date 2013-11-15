@@ -68,12 +68,14 @@ Opetope
 
 A zoom complex with dimensions
 
-| -1 | -2  | ... | _n_ |
-| -: | :-: | --- | :-- |
-| O  | (.) |     | . |
+| -2 | -1  | … | _n_ |
+|---:|:---:|---|:--|
+| O  | (.) |   | . |
 
 and a _corolla_ in the last dimension
 is called an _opetope_.
+
+Opetopes are normally drawn strarting with dimension 0.
 
 Inductive Datatypes
 ===================
