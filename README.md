@@ -73,7 +73,7 @@ Special case: _corolla_
 
 A _corolla_ is a special zoom with just one dot in the left tree and no disks.
 
-[A corolla](https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg)
+![A corolla](https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg)
 
 The output tree is thus a _unit branch_.
 
