@@ -8,7 +8,7 @@ Seminar 2013-11-19
 Origin
 ======
 
-Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014v1)
+Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014.pdf)
 
 TQFTs [arXiv:q-alg/9503002](http://arxiv.org/pdf/q-alg/9503002.pdf)
 
@@ -17,11 +17,11 @@ Many People
 
 Various Researchers/Groups contributed since, and similar concepts go by a multitude of names
 
- - Multitopes – Makkai
+ - Multitopes – Hermida, Makkai
  - Opetopes – Eugenia Cheng
- - "positive-to-one computads" – Marek Zawadowski, arXiv http://arxiv.org/pdf/0708.2658.pdf
- - http://arxiv.org/pdf/1011.2374.pdf
- - Joachim Kock, et al. arXiv http://arxiv.org/pdf/0706.1033.pdf
+ - "positive-to-one computads" – Marek Zawadowski, (arXiv:0708.2658)[http://arxiv.org/pdf/0708.2658.pdf]
+ - Szawiel, Marek Zawadowski	(arXiv:1011.2374)[http://arxiv.org/pdf/1011.2374.pdf]
+ - Joachim Kock, et al. (arXiv:0706.1033)[http://arxiv.org/pdf/0706.1033.pdf]
 
 At IAS:
 
