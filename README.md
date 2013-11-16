@@ -39,6 +39,13 @@ Polynomial functors (iterated construction)
 Zooms and Complexes
 ===================
 
+We define _zooms_ as  configurable 'tree transformers'.
+
+Then we compose zooms to compexes, subject to boundary conditions.
+
+Zoom definition
+----------------
+
 ![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
 
 Input data: rooted (planar) trees (the nth dimension)
@@ -48,6 +55,11 @@ Freely decorate with disks, adhering to rules:
  - disk must cut branch(es), but nothing else
  - every disk must capture a subtree
 
+Input-to-output translation
+----------------------------
+
+[Just change the perspective!](https://rawgithub.com/ggreif/seminar-opetope/master/opetope2.stl)
+
 Translate to tree in the (n+1)th dimension
 
 | Input  |   | Output  |
@@ -56,7 +68,7 @@ Translate to tree in the (n+1)th dimension
 | dot    | ⇒ | (unit) branch |
 | disk   | ⇒ |  dot    |
 
-Assembling the Complex
+Assembling the complex
 -----------------------
 
 The trees have labelled branches and dots (without repetition)
