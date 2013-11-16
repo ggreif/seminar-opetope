@@ -116,8 +116,32 @@ Coherence conditions
 Automatically "type-checked"
 
 
+Deductions (following Finster)
+===============================
+
+Let's have a  _formal language_ whose 'terms' are pasting diagrams.
+
+We (say) start out with a set of basic opetopes (_axioms_).
+
+What are the _deduction rules_ to create new ones?
+
+Empty rule
+-----------
+
+Composite rule
+---------------
+
+Universal cell introduction
+----------------------------
+
+Universal cell elimination
+---------------------------
+
+Similar to the [J-rule](http://homotopytypetheory.org/2011/04/10/just-kidding-understanding-identity-elimination-in-homotopy-type-theory/)
+
+
 Can we Obtain Cartesian Closure?
-=================
+=================================
 
 Tensor product on operads http://arxiv.org/pdf/math/0701293.pdf
 
