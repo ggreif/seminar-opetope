@@ -216,3 +216,8 @@ Strata in Ωmega
 ===============
 
 ![Type strata](http://omega.googlecode.com/svn/wiki/Kind-hierarchy.svg)
+
+Questions?
+===========
+
+Thanks for your attention!
