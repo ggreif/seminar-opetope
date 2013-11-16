@@ -156,6 +156,9 @@ What are the _deduction rules_ to create new ones?
 Empty rule
 -----------
 
+Paste rule
+-----------
+
 Composite rule
 ---------------
 
