@@ -10,7 +10,7 @@ Origin
 
 Baez and Dolan (_metatree_, _opetope_)
 
-TQFTs
+TQFTs [arXiv:q-alg/9503002](http://arxiv.org/pdf/q-alg/9503002.pdf)
 
 Many People
 ===========
