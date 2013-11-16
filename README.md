@@ -168,6 +168,7 @@ Universal cell elimination
 
 Similar to the [J-rule](http://homotopytypetheory.org/2011/04/10/just-kidding-understanding-identity-elimination-in-homotopy-type-theory/)
 
+![The power of the universal cell](http://images.amazon.com/images/G/01/dvd/cinderella-pumpkin-large.jpg)
 
 Can we Obtain Cartesian Closure?
 =================================
