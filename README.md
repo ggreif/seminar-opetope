@@ -58,7 +58,7 @@ Freely decorate with disks, adhering to rules:
 Input-to-output translation
 ----------------------------
 
-[Just change the perspective!](https://rawgithub.com/ggreif/seminar-opetope/master/opetope2.stl)
+[Just change the perspective!](https://github.com/ggreif/seminar-opetope/blob/master/opetope2.stl)
 
 Translate to tree in the (n+1)th dimension
 
