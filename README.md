@@ -119,6 +119,8 @@ Automatically "type-checked"
 Deductions (following Finster)
 ===============================
 
+Let's have a  _formal language_ whose 'terms' are pasting diagrams.
+
 We (say) start out with a set of basic opetopes (_axioms_).
 
 What are the _deduction rules_ to create new ones?
