@@ -75,7 +75,10 @@ A _corolla_ is a special zoom with just one dot in the left tree and no disks.
 
 ![A corolla](https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg)
 
-The output tree is thus a _unit branch_.
+The output tree is thus a _unit branch_:
+
+![Corolla in zoom view](https://rawgithub.com/ggreif/seminar-opetope/master/corolla-zoom.svg)
+
 
 Assembling the complex
 -----------------------
@@ -100,6 +103,8 @@ Opetopes are normally drawn starting with dimension 0.
 
  * a 0-dimensional opetope is (isomorphic to) a natural number
  * the zoom in dimension 1 has a planar tree input
+
+[You can construct opetopes interactively.](http://sma.epfl.ch/~finster/opetope/opetope.html)
 
 Inductive Datatypes
 ===================
