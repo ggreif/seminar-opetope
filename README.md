@@ -39,26 +39,54 @@ Polynomial functors (iterated construction)
 Zooms and Complexes
 ===================
 
+![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
 
-Input data: (planar) trees (the nth dimension)
+Input data: rooted (planar) trees (the nth dimension)
 
-Freely decorate with disks, adhering to rule:
+Freely decorate with disks, adhering to rules:
 
  - disk must cut branch(es), but nothing else
+ - every disk must capture a subtree
 
 Translate to tree in the (n+1)th dimension
 
- - branch ⊣
- - dot ⇒ (unit) branch
- - disk ⇒ dot
+| Input  |   | Output  |
+| -----: |:-:| :------ |
+| branch | ⊣ |         |
+| dot    | ⇒ | (unit) branch |
+| disk   | ⇒ |  dot    |
 
+Assembling the Complex
+-----------------------
+
+The trees have labelled branches and dots (without repetition)
+
+Zooms can be joined when the trees match, forming a _zoom complex_.
+
+Opetope
+--------
+
+A zoom complex with dimensions
+
+| -2 | -1  | … | _n+1_ |
+|---:|:---:|---|:--|
+| O  | (.) |   | . |
+
+and a _corolla_ in the last dimension
+is called an _opetope_.
+
+Opetopes are normally drawn starting with dimension 0.
+
+ * a 0-dimensional opetope is (isomorphic to) a natural number
+ * the zoom in dimension 1 has a planar tree input
 
 Inductive Datatypes
 ===================
 
-Finster gives data type + typechecker
+Finster gives [data type](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf#page=26) + *typechecker*
 
-But intrinsic definition of `Zoom`s possible
+But [intrinsic definition](http://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Intrinsic_vs._extrinsic_interpretations)
+of `Zoom`s is possible
 
 
 Category of Opetopes
@@ -104,7 +132,7 @@ Symmetric monoidal closed, yes, but cartesian?
 Excursion: Lambda Calculus
 ==========================
 
-Several notations, e.g. λ(μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
+Several notations, e.g. λ (with μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
 
 let's come up with another one!
 
@@ -130,3 +158,8 @@ glueing an input on a (constructor) application --> pattern matching
 
 x^2+y_1+z_12^34
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
+
+Strata in Ωmega
+===============
+
+![Type strata](http://omega.googlecode.com/svn/wiki/Kind-hierarchy.svg)
