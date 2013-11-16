@@ -212,7 +212,8 @@ glueing an input on a (constructor) application --> pattern matching
 x^2+y_1+z_12^34
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
 
-<iframe class="render-viewer" src="https://render.github.com/view/3d/?url=https%3A%2F%2Fraw.github.com%2Fggreif%2Fseminar-opetope%2Fmaster%2Fopetope2.stl#6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c" sandbox="allow-scripts allow-same-origin">Viewer requires iframe.</iframe>
+  <div class="render-container is-render-pending js-render-target"
+    <iframe class="render-viewer" src="https://render.github.com/view/3d/?url=https%3A%2F%2Fraw.github.com%2Fggreif%2Fseminar-opetope%2Fmaster%2Fopetope2.stl#6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c" sandbox="allow-scripts allow-same-origin">Viewer requires iframe.</iframe>
   </div>
 
 Strata in Ωmega
