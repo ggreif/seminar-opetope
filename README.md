@@ -75,7 +75,10 @@ A _corolla_ is a special zoom with just one dot in the left tree and no disks.
 
 ![A corolla](https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg)
 
-The output tree is thus a _unit branch_.
+The output tree is thus a _unit branch_:
+
+![Corolla in zoom view](https://rawgithub.com/ggreif/seminar-opetope/master/corolla-zoom.svg)
+
 
 Assembling the complex
 -----------------------
