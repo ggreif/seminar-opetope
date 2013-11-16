@@ -104,6 +104,8 @@ Opetopes are normally drawn starting with dimension 0.
  * a 0-dimensional opetope is (isomorphic to) a natural number
  * the zoom in dimension 1 has a planar tree input
 
+[You can construct opetopes interactively.](http://sma.epfl.ch/~finster/opetope/opetope.html)
+
 Inductive Datatypes
 ===================
 
