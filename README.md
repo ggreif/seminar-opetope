@@ -8,14 +8,14 @@ Seminar 2013-11-19
 Origin
 ======
 
-Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014.pdf)
+Mid 1990'es by Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014.pdf).
 
 TQFTs [arXiv:q-alg/9503002](http://arxiv.org/pdf/q-alg/9503002.pdf)
 
 Many People
 ===========
 
-Various Researchers/Groups contributed since, and similar concepts go by a multitude of names
+Various researchers/groups contributed since, and similar concepts go by a multitude of names
 
  - Multitopes – Hermida, Makkai
  - Opetopes – Eugenia Cheng
