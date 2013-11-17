@@ -234,13 +234,13 @@ $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
         <td>Foo
         
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mi>&#x03C0;<!-- π --></mi>
-  <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
-  <msup>
-    <mi>r</mi>
-    <mn>2</mn>
-  </msup>
-</math>
+          <mi>&#x03C0;<!-- π --></mi>
+          <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
+          <msup>
+            <mi>r</mi>
+            <mn>2</mn>
+          </msup>
+        </math>
 
         </td>
     </tr>
