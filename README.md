@@ -259,6 +259,29 @@ Kind promotion
 
 ![Nat'](https://rawgithub.com/ggreif/seminar-opetope/master/haskell-nats.svg)
 
+``` haskell
+data {- kind -} Nat = Z | S Nat
+
+data Nat' :: Nat -> * where
+  Z' :: Nat' Z
+  S' :: Nat' n -> Nat' (S n)
+```
+
+Singleton Types in Ωmega
+---------------------------
+
+Kind definitions possible (at any level)
+
+![Ωmega's Nat'](https://rawgithub.com/ggreif/seminar-opetope/master/omega-nats.svg)
+
+``` haskell
+kind Nat = Z | S Nat
+
+data Nat' :: Nat ~> * where
+  Z' :: Nat' Z
+  S' :: Nat' n -> Nat' (S n)
+```
+
 _Programming in the Sky_
 -------------------------
 
