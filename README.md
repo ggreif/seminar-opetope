@@ -151,7 +151,11 @@ then graft
 Substitution
 -------------
 
-mark an n-ary node, swap it for an n-ary tree
+Mark an n-ary node (or disk), swap it for an n-ary tree
+
+![Substitute](https://rawgithub.com/ggreif/seminar-opetope/master/substitution.svg)
+
+Analogous to monadic _bind_.
 
 Geometric Realization
 ======================
