@@ -90,6 +90,8 @@ Assembling the complex
 
 The trees have labelled branches and dots (without repetition)
 
+![Labelled zoom](https://rawgithub.com/ggreif/seminar-opetope/master/labelled-zoom.svg)
+
 Zooms can be joined when the trees match, forming a _zoom complex_.
 
 ![Formed complex](https://rawgithub.com/ggreif/seminar-opetope/master/zoom-complex.svg)
