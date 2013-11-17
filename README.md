@@ -230,7 +230,7 @@ glueing an input on a (constructor) application --> pattern matching
 
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
 
-<img src="http://latex.codecogs.com/svg.latex?1+sin(x) \mathbf{Set}" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?1+sin(x)%20\mathbf{Set}^\mathcal{O}\rightarrow\mathbf{Cat^\mathcal{O}}" border="0"/>
 
 ![MathML test](https://rawgithub.com/ggreif/seminar-opetope/master/mathml.svg)
 
