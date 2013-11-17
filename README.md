@@ -37,7 +37,7 @@ At IAS:
 Higher-dimensional Trees
 ========================
 
-Polynomial functors (iterated construction)
+Polynomial functors and monads (iterated construction)
 
 
 
