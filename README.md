@@ -134,15 +134,22 @@ Morphisms are face maps
 
 Identity morphism
 
+Pointers
+---------
+
+To _mark_ (e.g.) a dot in a tree we use trees that only have one unit branch
+
+![A pointer](https://rawgithub.com/ggreif/seminar-opetope/master/pointer.svg)
+
 Composition
-===========
+------------
 
 "pointer" tree to mark a unit branch
 
 then graft
 
 Substitution
-============
+-------------
 
 mark an n-ary node, swap it for an n-ary tree
 
