@@ -228,7 +228,7 @@ glueing an input on a (constructor) application --> pattern matching
 
 <script type="text/javascript" src="http://www1.chapman.edu/~jipsen/mathml/ASCIIMathML.js"></script>
 
-$\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
+<img src="http://latex.codecogs.com/svg.latex?\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}" border="0"/>
 
 <img src="http://latex.codecogs.com/svg.latex?1+sin(x)%20\mathbf{Set}^\mathcal{O}\rightarrow\mathbf{Cat^\mathcal{O}}" border="0"/>
 
