@@ -257,6 +257,8 @@ Singleton Types in Haskell
 
 Kind promotion
 
+![Nat'](https://rawgithub.com/ggreif/seminar-opetope/master/haskell-nats.svg)
+
 _Programming in the Sky_
 -------------------------
 
