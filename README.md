@@ -162,6 +162,8 @@ Geometric Realization
 
 As _pasting diagrams_.
 
+![Pasting diagram](https://rawgithub.com/ggreif/seminar-opetope/master/pasting-diagram.svg)
+
 
 [As _string diagrams_](http://www-bcf.usc.edu/~lauda/xy/stringtutorial) (dual to the above).
 
