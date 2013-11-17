@@ -18,6 +18,58 @@
    sodipodi:docname="labelled-zoom.svg">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path5545"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondSend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DiamondSend"
+       style="overflow:visible">
+      <path
+         id="path5630"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2) translate(-6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyDiamondS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondS"
+       style="overflow:visible">
+      <path
+         id="path5639"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#FFFFFF;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DiamondM"
+       style="overflow:visible">
+      <path
+         id="path5609"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.4)" />
+    </marker>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect5521"
@@ -93,6 +145,125 @@
        id="linearGradient5474"
        xlink:href="#linearGradient7613"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7613-7">
+      <stop
+         style="stop-color:#6c0000;stop-opacity:1;"
+         offset="0"
+         id="stop7615-2" />
+      <stop
+         style="stop-color:#6c0000;stop-opacity:0;"
+         offset="1"
+         id="stop7617-7" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="EmptyDiamondSstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondSstart-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3952-1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondSend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondSend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5630-4"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,-1.2,0)" />
+    </marker>
+    <linearGradient
+       y2="84.36898"
+       x2="434.86545"
+       y1="84.36898"
+       x1="288.47336"
+       gradientTransform="translate(-309.66116,-76.672923)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7136"
+       xlink:href="#linearGradient7613-7"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7613"
+       id="linearGradient7162"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76989049,0,0,0.76989049,34.420821,614.71855)"
+       x1="288.47336"
+       y1="84.36898"
+       x2="434.86545"
+       y2="84.36898" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7613-3"
+       id="linearGradient7619-0"
+       x1="288.47336"
+       y1="84.36898"
+       x2="434.86545"
+       y2="84.36898"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7613-3">
+      <stop
+         style="stop-color:#6c0000;stop-opacity:1;"
+         offset="0"
+         id="stop7615-7" />
+      <stop
+         style="stop-color:#6c0000;stop-opacity:0;"
+         offset="1"
+         id="stop7617-3" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="EmptyDiamondSstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondSstart-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3952-6"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DiamondS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DiamondS-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3916-3"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 0,-7.0710768 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.2,0.2)" />
+    </marker>
+    <linearGradient
+       gradientTransform="matrix(0.52898024,0,0,0.52898024,121.8635,644.40173)"
+       y2="84.36898"
+       x2="434.86545"
+       y1="84.36898"
+       x1="288.47336"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient7238"
+       xlink:href="#linearGradient7613-3"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -101,16 +272,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="187.02309"
-     inkscape:cy="111.8316"
+     inkscape:zoom="2"
+     inkscape:cx="260.58575"
+     inkscape:cy="165.94483"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1380"
      inkscape:window-height="1066"
-     inkscape:window-x="821"
-     inkscape:window-y="180"
+     inkscape:window-x="945"
+     inkscape:window-y="282"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -272,10 +443,9 @@
          x="419.14569"
          y="763.0199">g</tspan></text>
     <path
-       style="fill:none;stroke:url(#linearGradient5474);stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#EmptyDiamondSstart);marker-end:url(#DiamondS)"
-       d="m 274.75073,679.61592 c 125,0 75.49238,0 75.49238,0"
+       style="fill:none;stroke:url(#linearGradient7238);stroke-width:5.28980255;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#EmptyDiamondSstart);marker-end:url(#DiamondS)"
+       d="m 277.1051,689.03126 c 66.12253,0 66.65151,0 66.65151,0"
        id="path3825"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
