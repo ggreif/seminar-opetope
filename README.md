@@ -150,7 +150,7 @@ Geometric Realization
 As _pasting diagrams_.
 
 
-As _string diagrams_ (dual to the above).
+[As _string diagrams_](http://www-bcf.usc.edu/~lauda/xy/stringtutorial) (dual to the above).
 
 Coherence conditions
 ====================
