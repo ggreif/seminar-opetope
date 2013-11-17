@@ -226,18 +226,16 @@ glueing an input on a (constructor) application --> pattern matching
 
 <script type="text/javascript" src="http://www1.chapman.edu/~jipsen/mathml/ASCIIMathML.js"></script>
 
-x^2+y_1+z_12^34
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
 
-<div class="render-wrapper">
-  <div class="render-container is-render-pending js-render-target"
-    data-identity="6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c"
-    data-host="https://render.github.com"
-    data-type="3d"
-    data-local="false">
-    <iframe class="render-viewer" src="https://render.github.com/view/3d/?url=https%3A%2F%2Fraw.github.com%2Fggreif%2Fseminar-opetope%2Fmaster%2Fopetope2.stl#6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c" sandbox="allow-scripts allow-same-origin">Viewer requires iframe.</iframe>
-  </div>
-</div>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>&#x03C0;<!-- π --></mi>
+  <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
+  <msup>
+    <mi>r</mi>
+    <mn>2</mn>
+  </msup>
+</math>
 
 Strata in Ωmega
 ===============
