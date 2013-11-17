@@ -4,6 +4,12 @@ Short Intro to Opetopes
 
 Seminar 2013-11-19
 
+My goals:
+ 1. form an intuition of opetopic sets
+ 2. sketch a calculus of (string) diagrams
+ 3. discuss missing the piece of cartesian closure
+ 4. potential applications to Ωmega 2.0
+
 
 Origin
 ======
@@ -114,7 +120,7 @@ Inductive Datatypes
 Finster gives [data type](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf#page=26) + *typechecker*
 
 But [intrinsic definition](http://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Intrinsic_vs._extrinsic_interpretations)
-of `Zoom`s is possible
+of `Zoom`s [is possible](https://code.google.com/p/omega/source/browse/trunk/tests/Opetope.prg).
 
 
 Category of Opetopes
@@ -137,6 +143,14 @@ Substitution
 ============
 
 mark an n-ary node, swap it for an n-ary tree
+
+Geometric Realization
+======================
+
+As _pasting diagrams_.
+
+
+[As _string diagrams_](http://www-bcf.usc.edu/~lauda/xy/stringtutorial) (dual to the above).
 
 Coherence conditions
 ====================
@@ -190,15 +204,15 @@ Excursion: Lambda Calculus
 
 Several notations, e.g. λ (with μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
 
-let's come up with another one!
+let's come up with another one! (…see also Zena Ariola…)
 
-## (binary) search tree
+## (Binary) search tree
 
 ## Abstraction / Binders
 
 deBruijn + extra sauce
 
-## References: Identification, glueing
+## References: Identification, gluing
 
 glueing an input on a (constructor) application --> pattern matching
 
@@ -212,18 +226,27 @@ glueing an input on a (constructor) application --> pattern matching
 
 <script type="text/javascript" src="http://www1.chapman.edu/~jipsen/mathml/ASCIIMathML.js"></script>
 
-x^2+y_1+z_12^34
 $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
 
-<div class="render-wrapper">
-  <div class="render-container is-render-pending js-render-target"
-    data-identity="6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c"
-    data-host="https://render.github.com"
-    data-type="3d"
-    data-local="false">
-    <iframe class="render-viewer" src="https://render.github.com/view/3d/?url=https%3A%2F%2Fraw.github.com%2Fggreif%2Fseminar-opetope%2Fmaster%2Fopetope2.stl#6c2bd779-7d61-4b11-9c3e-a1a9e9fbd32c" sandbox="allow-scripts allow-same-origin">Viewer requires iframe.</iframe>
-  </div>
-</div>
+<img src="http://latex.codecogs.com/svg.latex?1+sin(x) \mathbf{Set}" border="0"/>
+
+<table>
+    <tr>
+        <td>Foo
+        
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <mi>&#x03C0;<!-- π --></mi>
+          <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
+          <msup>
+            <mi>r</mi>
+            <mn>2</mn>
+          </msup>
+        </math>
+
+        </td>
+    </tr>
+</table>
+
 
 Strata in Ωmega
 ===============
