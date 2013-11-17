@@ -212,7 +212,7 @@ let's come up with another one! (…see also Zena Ariola…)
 
 deBruijn + extra sauce
 
-## References: Identification, glueing
+## References: Identification, gluing
 
 glueing an input on a (constructor) application --> pattern matching
 
