@@ -114,7 +114,7 @@ Inductive Datatypes
 Finster gives [data type](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf#page=26) + *typechecker*
 
 But [intrinsic definition](http://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Intrinsic_vs._extrinsic_interpretations)
-of `Zoom`s is possible
+of `Zoom`s [is possible](https://code.google.com/p/omega/source/browse/trunk/tests/Opetope.prg).
 
 
 Category of Opetopes
@@ -190,9 +190,9 @@ Excursion: Lambda Calculus
 
 Several notations, e.g. λ (with μ), [item notation (Kamareddine, Nederpelt)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554)
 
-let's come up with another one!
+let's come up with another one! (…see also Zena Ariola…)
 
-## (binary) search tree
+## (Binary) search tree
 
 ## Abstraction / Binders
 
