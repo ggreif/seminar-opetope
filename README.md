@@ -144,6 +144,14 @@ Substitution
 
 mark an n-ary node, swap it for an n-ary tree
 
+Geometric Realization
+======================
+
+As _pasting diagrams_.
+
+
+As _string diagrams_ (dual to the above).
+
 Coherence conditions
 ====================
 
