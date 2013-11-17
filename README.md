@@ -53,7 +53,7 @@ Zoom definition
 
 ![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
 
-Input data: rooted (planar) trees (the nth dimension)
+Input data: finite rooted (planar) trees (the nth dimension)
 
 Freely decorate with disks, adhering to rules:
 
