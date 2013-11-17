@@ -282,6 +282,17 @@ data Nat' :: Nat ~> * where
   S' :: Nat' n -> Nat' (S n)
 ```
 
+Level Polymorphism
+-------------------
+
+``` haskell
+data Nat :: level k . *k where
+  Z :: Nat
+  S :: Nat ~> Nat
+```
+
+![Ωmega's level polymorphism](https://rawgithub.com/ggreif/seminar-opetope/master/omega-levels.svg)
+
 _Programming in the Sky_
 -------------------------
 
