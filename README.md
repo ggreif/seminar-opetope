@@ -232,23 +232,7 @@ $\frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$
 
 <img src="http://latex.codecogs.com/svg.latex?1+sin(x) \mathbf{Set}" border="0"/>
 
-<table>
-    <tr>
-        <td>Foo
-        
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <mi>&#x03C0;<!-- π --></mi>
-          <mo>&#x2062;<!-- &InvisibleTimes; --></mo>
-          <msup>
-            <mi>r</mi>
-            <mn>2</mn>
-          </msup>
-        </math>
-
-        </td>
-    </tr>
-</table>
-
+![MathML test](https://rawgithub.com/ggreif/seminar-opetope/master/mathml.svg)
 
 Strata in Ωmega
 ===============
