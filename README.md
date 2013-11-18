@@ -229,7 +229,15 @@ let's come up with another one! (…see also Zena Ariola…)
 
 ![Y combinator](https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg)
 
+Kind for shapes
+``` haskell
+kind Sh = Ap Sh Sh | Lm Sh | Rf Ref
+kind Ref = Up Ref | Stop | Left Ref | Right Ref | Down Ref
+```
+
 ## Abstraction / Binders
+
+
 
 deBruijn + extra sauce
 
