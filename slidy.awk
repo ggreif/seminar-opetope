@@ -3,6 +3,7 @@ print "<!DOCTYPE html>"
 print "<html>"
 print "  <head>"
 print "    <meta charset='utf-8'>"
+print "    <meta name='duration' content='60' />"
   head = 1
 }
 
