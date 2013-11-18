@@ -47,7 +47,7 @@ inside && /<\/article/ {
 }
 
 inside && /<h1>/ {
-  if (needs_close_div) print sub(/<h1>/, "</div><h1>")
+  if (needs_close_div) sub(/<h1>/, "</div>\n<h1>")
   sub(/<h1>/, "<div class='slide'><h1>")
   print
   needs_close_div = 1
@@ -55,17 +55,12 @@ inside && /<h1>/ {
 }
 
 inside && /<h2>/ {
-  if (needs_close_div) print sub(/<h2>/, "</div><h2>")
+  if (needs_close_div) sub(/<h2>/, "</div>\n<h2>")
   sub(/<h2>/, "<div class='slide'><h2>")
   print
   needs_close_div = 1
   next
 }
-
-##needs_close_div && (/<h1>/ || /<h2>/) {
-##    sub(/<h1>/, "</div><h1>")
-##    sub(/<h2>/, "</div><h2>")
-##}
 
 inside {
   print
