@@ -235,17 +235,24 @@ kind Sh = Ap Sh Sh | Lm Sh | Rf Ref
 kind Ref = Up Ref | Stop | Left Ref | Right Ref | Down Ref
 ```
 
-## Abstraction / Binders
+Abstraction / Binders
+======================
+
+Key insight: Trees admit naturals
+
+
+But we need _deBruijn_ + _extra sauce_
 
 
 
-deBruijn + extra sauce
+References: Identification, gluing
+===================================
 
-## References: Identification, gluing
+gluing an input on a (constructor) application --> pattern matching
 
-glueing an input on a (constructor) application --> pattern matching
+Internal Hom
+=============
 
-## Internal Hom
 `(→)` is binary type constructor
  - profunctor (contra-/covariant)
  - Klein bottle (orientation-reversing)
