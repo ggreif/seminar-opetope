@@ -34,7 +34,7 @@ head && (/text\/css/ || /text\/javascript/) {
 }
 
 /<article/ {
-  print "<div class='slide'><h1>"
+  print "<div class='slide markdown-body'><h1>"
   needs_close_div = 1
   inside = 1
   next
@@ -48,7 +48,7 @@ inside && /<\/article/ {
 
 inside && /<h1>/ {
   if (needs_close_div) sub(/<h1>/, "</div>\n<h1>")
-  sub(/<h1>/, "<div class='slide'><h1>")
+  sub(/<h1>/, "<div class='slide markdown-body'><h1>")
   print
   needs_close_div = 1
   next
@@ -56,7 +56,7 @@ inside && /<h1>/ {
 
 inside && /<h2>/ {
   if (needs_close_div) sub(/<h2>/, "</div>\n<h2>")
-  sub(/<h2>/, "<div class='slide'><h2>")
+  sub(/<h2>/, "<div class='slide markdown-body'><h2>")
   print
   needs_close_div = 1
   next
