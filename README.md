@@ -229,6 +229,7 @@ We start with a lambda term
 <img src="http://latex.codecogs.com/svg.latex?(\lambda x.xx)(\lambda x.xx)" border="0"/>
 
 Respecting scope we build a search tree and retrofit it with references
+
 ![Y combinator](https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg)
 
 Kind for shapes
