@@ -322,7 +322,7 @@ data Nat :: level k . *k where
 Can we please have Curry-Howard back?
 --------------------------------------
 
-C-H lost as level-polymorphic type above has no type parameter!
+C-H lost as level-polymorphic type `Nat` above has no type parameter/index!
 
 Idea: parametrize with the same thing, but from one level up...
 
