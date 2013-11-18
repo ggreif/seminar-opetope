@@ -34,7 +34,8 @@ head && (/text\/css/ || /text\/javascript/) {
 }
 
 /<article/ {
-  print "<h1>"
+  print "<div class='slide'><h1>"
+  needs_close_div = 1
   inside = 1
   next
 }
@@ -45,12 +46,33 @@ inside && /<\/article/ {
     inside = 0
 }
 
-inside {
-    print
+inside && /<h1>/ {
+  if (needs_close_div) print sub(/<h1>/, "</div><h1>")
+  sub(/<h1>/, "<div class='slide'><h1>")
+  print
+  needs_close_div = 1
+  next
+}
 
+inside && /<h2>/ {
+  if (needs_close_div) print sub(/<h2>/, "</div><h2>")
+  sub(/<h2>/, "<div class='slide'><h2>")
+  print
+  needs_close_div = 1
+  next
+}
+
+##needs_close_div && (/<h1>/ || /<h2>/) {
+##    sub(/<h1>/, "</div><h1>")
+##    sub(/<h2>/, "</div><h2>")
+##}
+
+inside {
+  print
 }
 
 END {
-  print "</body>"
-print "</html>"
+  if (needs_close_div) print "</div>"
+  print "  </body>"
+  print "</html>"
 }
