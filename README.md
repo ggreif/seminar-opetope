@@ -244,18 +244,20 @@ Abstraction / Binders
 Key insight: Trees admit naturals
 
 ![Glue input](https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg)
-and
-![Docking stations](https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg)
-
 
 But we need _deBruijn_ + _extra sauce_
 
+![Docking stations](https://rawgithub.com/ggreif/seminar-opetope/master/docking-stations.svg)
 
 
 References: Identification, gluing
 ===================================
 
-gluing an input on a (constructor) application --> pattern matching
+![References](https://rawgithub.com/ggreif/seminar-opetope/master/references.svg)
+
+ - gluing an input on a (constructor) application ⟶ pattern matching
+ - … means: "application dot" here
+ - gluing inputs _vanish_ from application
 
 Internal Hom
 =============
