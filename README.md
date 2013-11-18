@@ -221,6 +221,8 @@ Several notations, e.g. λ (with μ), [item notation (Kamareddine, Nederpelt)](h
 
 let's come up with another one! (…see also Zena Ariola…)
 
+![Lambda Graph](https://omega.googlecode.com/svn/wiki/LambdaGraph.svg)
+
 ## (Binary) search tree
 
 <img src="http://latex.codecogs.com/svg.latex?(\lambda x.xx)(\lambda x.xx)" border="0"/>
