@@ -258,6 +258,7 @@ References: Identification, gluing
  - gluing an input on a (constructor) application ⟶ pattern matching
  - … means: "application dot" here
  - gluing inputs _vanish_ from application
+ - n-ary application possible? semantics?
 
 Internal Hom
 =============
