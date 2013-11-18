@@ -223,6 +223,8 @@ let's come up with another one! (…see also Zena Ariola…)
 
 ## (Binary) search tree
 
+<img src="http://latex.codecogs.com/svg.latex?(\lambda x.xx)(\lambda x.xx)" border="0"/>
+
 ## Abstraction / Binders
 
 deBruijn + extra sauce
@@ -244,6 +246,8 @@ glueing an input on a (constructor) application --> pattern matching
 <img src="http://latex.codecogs.com/svg.latex?\frac{d}{dx}f(x)=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}" border="0"/>
 
 <img src="http://latex.codecogs.com/svg.latex?\mathbf{Set}^\mathcal{O}\rightarrow\mathbf{Cat}^\mathcal{O}" border="0"/>
+
+
 
 ![MathML test](https://rawgithub.com/ggreif/seminar-opetope/master/mathml.svg)
 
