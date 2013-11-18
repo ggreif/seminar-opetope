@@ -199,8 +199,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="134.80371"
-     inkscape:cy="232.25488"
+     inkscape:cx="174.80371"
+     inkscape:cy="272.25488"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -231,8 +231,8 @@
      id="layer1"
      transform="translate(-38.696289,-30.862183)">
     <path
-       style="fill:none;stroke:#0000f3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:url(#DotM);marker-end:url(#InfiniteLineEnd)"
-       d="M 99,46.362183 C 81.717942,90.750751 102.40589,126.84625 96,167.36218"
+       style="fill:none;stroke:#0000f3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-mid:url(#DotM);marker-end:none"
+       d="M 99,46.362183 C 81.717942,90.750751 101.40589,153.84625 95,194.36218"
        id="path6863"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
