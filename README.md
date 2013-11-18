@@ -14,7 +14,7 @@ My goals:
 Origin
 ======
 
-Mid 1990'es by Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014.pdf).
+Mid-1990'es by Baez and Dolan (_metatree_, _opetope_), published as [arXiv:q-alg/9702014](http://arxiv.org/pdf/q-alg/9702014.pdf).
 
 TQFTs [arXiv:q-alg/9503002](http://arxiv.org/pdf/q-alg/9503002.pdf)
 
@@ -293,10 +293,47 @@ data Nat :: level k . *k where
 
 ![Ωmega's level polymorphism](https://rawgithub.com/ggreif/seminar-opetope/master/omega-levels.svg)
 
+Can we please have Curry-Howard back?
+--------------------------------------
+
+C-R lost as level-polymorphic type above has no type parameter!
+
+Idea: parametrize with the same thing, but from one level up...
+
+Unfortunately this is not working out :-(
+
+Next idea
+----------
+
+parametrize on the **left**. Make access to parameter _optional_.
+
+these all mean the same thing:
+``` haskell
+S Z :: Nat
+S Z :: S Z ° Nat
+S Z :: (S Z :: Nat) ° Nat
+S Z :: (S Z :: S Z ° Nat) ° Nat
+```
+
+Ad infinitum, coinductively.
+
 _Programming in the Sky_
 -------------------------
+
+Program in the colimit. Write a very simple `data` definition
+
+``` haskell
+data Nat = Z | S Nat
+```
+
+But have the refinement structure available when wanting to
+state type-level propositions.
 
 Questions?
 ===========
 
 Thanks for your attention!
+
+Btw. I am looking for collaborators
+ 1. to make these ideas precise
+ 2. kick-start an initial implementation.
