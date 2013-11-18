@@ -244,6 +244,8 @@ Abstraction / Binders
 Key insight: Trees admit naturals
 
 ![Glue input](https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg)
+and
+![Docking stations](https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg)
 
 
 But we need _deBruijn_ + _extra sauce_
