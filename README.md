@@ -227,6 +227,8 @@ let's come up with another one! (…see also Zena Ariola…)
 
 <img src="http://latex.codecogs.com/svg.latex?(\lambda x.xx)(\lambda x.xx)" border="0"/>
 
+![Y combinator](https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg)
+
 ## Abstraction / Binders
 
 deBruijn + extra sauce
