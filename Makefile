@@ -5,3 +5,12 @@ opetope.html: opetope.raw slidy.awk
 	awk -f slidy.awk $< > $@
 	open -a Firefox $@
 
+.PHONY: clean pull regenerate
+
+clean:
+	rm opetope.raw
+
+pull:
+	git pull
+
+regenerate: clean pull opetope.html
