@@ -11,6 +11,6 @@ clean:
 	rm opetope.raw
 
 pull:
-	git pull
+	git pull --rebase
 
 regenerate: clean pull opetope.html
