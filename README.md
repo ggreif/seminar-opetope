@@ -325,6 +325,12 @@ Idea: parametrize with the same thing, but from one level up...
 
 Unfortunately this is not working out :-(
 
+I tried:
+
+![A failure](https://rawgithub.com/ggreif/seminar-opetope/master/singleton-levels.svg)
+
+For a few levels (each differently named) it can be made.
+
 Next idea
 ----------
 
