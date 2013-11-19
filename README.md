@@ -353,14 +353,21 @@ Ad infinitum, coinductively.
 _Programming in the Sky_
 -------------------------
 
-Program in the colimit. Write a very simple `data` definition
+Program in the (co)limit. Write a very simple `data` definition
 
 ``` haskell
 data Nat = Z | S Nat
 ```
 
-But have the refinement structure available when wanting to
+… but have the refinement structure available when wanting to
 state type-level propositions.
+
+Conclusion
+===========
+
+ 1. Opetopic calculus is very interesting
+ 2. It appears to be a solid basis for stratified type systems
+ 3. Cartesian closure not completely understood yet
 
 Questions?
 ===========
