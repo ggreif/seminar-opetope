@@ -329,7 +329,7 @@ I tried:
 
 ![A failure](https://rawgithub.com/ggreif/seminar-opetope/master/singleton-levels.svg)
 
-For a few levels (each differently named) it can be made.
+For a few levels (each differently named) [it can be made](https://code.google.com/p/omega/wiki/AutoLevelled#%CE%A9mega_example_for_%E2%80%B9%E2%80%B9Pat%E2%80%BA%E2%80%BA).
 
 Next idea
 ----------
