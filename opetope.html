@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='duration' content='60' />
+    <link href="https://github.global.ssl.fastly.net/assets/github-9fa72282faf894408a7fd8b4b5a476372a4daa8b.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-2d5b680234cbe90110660eb0beee6037ccf411e5.css" media="all" rel="stylesheet" type="text/css" />
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-bca527bb59d94c16d6bf2a759779d7953fa41e76.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-561ea6c1ddffdd6cf2380f9906e2587403633d63.js" type="text/javascript"></script>
+    <title>Seminar &mdash; Opetopes</title> 
+      <meta name='copyright' 
+       content='Copyright &#169; 2013 Gabor Greif' /> 
+      <link rel='stylesheet' type='text/css' media='screen, projection, print' 
+       href='http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css' /> 
+      <script src='http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js' 
+       charset='utf-8' type='text/javascript'></script> 
+  </head>
+  <body>
+<div class='slide markdown-body'><h1>
+<a name="short-intro-to-opetopes" class="anchor" href="#short-intro-to-opetopes"></a>Short Intro to Opetopes</h1>
+
+<p>Seminar 2013-11-19</p>
+
+<p>My goals:</p>
+
+<ol>
+<li>form an intuition of opetopic sets</li>
+<li>sketch a calculus of (string) diagrams</li>
+<li>discuss missing the piece of cartesian closure</li>
+<li>potential applications to Ωmega 2.0</li>
+</ol></div>
+<div class='slide markdown-body'><h1>
+<a name="origin" class="anchor" href="#origin"></a>Origin</h1>
+
+<p>Mid-1990'es by Baez and Dolan (<em>metatree</em>, <em>opetope</em>), published as <a href="http://arxiv.org/pdf/q-alg/9702014.pdf">arXiv:q-alg/9702014</a>.</p>
+
+<p>TQFTs <a href="http://arxiv.org/pdf/q-alg/9503002.pdf">arXiv:q-alg/9503002</a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="many-people" class="anchor" href="#many-people"></a>Many People</h1>
+
+<p>Various researchers/groups contributed since, and similar concepts go by a multitude of names</p>
+
+<ul>
+<li>Multitopes – Hermida, Makkai</li>
+<li>Opetopes – Eugenia Cheng (e.g. <a href="http://arxiv.org/pdf/math/0304284.pdf">arXiv:math/0304284</a>)</li>
+<li>"positive-to-one computads" – Marek Zawadowski, <a href="http://arxiv.org/pdf/0708.2658.pdf">arXiv:0708.2658</a>
+</li>
+<li>Szawiel, Marek Zawadowski    <a href="http://arxiv.org/pdf/1011.2374.pdf">arXiv:1011.2374</a>
+</li>
+<li>Joachim Kock, et al. <a href="http://arxiv.org/pdf/0706.1033.pdf">arXiv:0706.1033</a>
+</li>
+</ul><p>At IAS:</p>
+
+<ul>
+<li>Krzysztof Kapulkin</li>
+<li>Eric Finster</li>
+</ul></div>
+<div class='slide markdown-body'><h1>
+<a name="higher-dimensional-trees" class="anchor" href="#higher-dimensional-trees"></a>Higher-dimensional Trees</h1>
+
+<p>Polynomial functors and monads (iterated construction)</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="zooms-and-complexes" class="anchor" href="#zooms-and-complexes"></a>Zooms and Complexes</h1>
+
+<p>We define <em>zooms</em> as  configurable 'tree transformers'.</p>
+
+<p>Then we compose zooms to compexes, subject to boundary conditions.</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="zoom-definition" class="anchor" href="#zoom-definition"></a>Zoom definition</h2>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg" alt="A typical zoom" style="max-width:100%;"></a></p>
+
+<p>Input data: finite rooted (planar) trees (the nth dimension)</p>
+
+<p>Freely decorate with disks, adhering to rules:</p>
+
+<ul>
+<li>disk must cut branch(es), but nothing else</li>
+<li>every disk must capture a subtree</li>
+</ul></div>
+<div class='slide markdown-body'><h2>
+<a name="input-to-output-translation" class="anchor" href="#input-to-output-translation"></a>Input-to-output translation</h2>
+
+<p><a href="https://github.com/ggreif/seminar-opetope/blob/master/opetope2.stl">Just change the perspective!</a></p>
+
+<p>Translate to tree in the (n+1)th dimension</p>
+
+<table>
+<thead><tr>
+<th align="right">Input</th>
+<th align="center"></th>
+<th align="left">Output</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="right">branch</td>
+<td align="center">⊣</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">dot</td>
+<td align="center">⇒</td>
+<td align="left">(unit) branch</td>
+</tr>
+<tr>
+<td align="right">disk</td>
+<td align="center">⇒</td>
+<td align="left">dot</td>
+</tr>
+</tbody>
+</table></div>
+<div class='slide markdown-body'><h2>
+<a name="special-case-corolla" class="anchor" href="#special-case-corolla"></a>Special case: <em>corolla</em>
+</h2>
+
+<p>A <em>corolla</em> is a special zoom with just one dot in the left tree and no disks.</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg" alt="A corolla" style="max-width:100%;"></a></p>
+
+<p>The output tree is thus a <em>unit branch</em>:</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/corolla-zoom.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/corolla-zoom.svg" alt="Corolla in zoom view" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="assembling-the-complex" class="anchor" href="#assembling-the-complex"></a>Assembling the complex</h2>
+
+<p>The trees have labelled branches and dots (without repetition)</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/labelled-zoom.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/labelled-zoom.svg" alt="Labelled zoom" style="max-width:100%;"></a></p>
+
+<p>Zooms can be joined when the trees match, forming a <em>zoom complex</em>.</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/zoom-complex.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/zoom-complex.svg" alt="Formed complex" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="opetope" class="anchor" href="#opetope"></a>Opetope</h2>
+
+<p>A zoom complex with dimensions</p>
+
+<table>
+<thead><tr>
+<th align="right">-2</th>
+<th align="center">-1</th>
+<th>…</th>
+<th align="left"><em>n+1</em></th>
+</tr></thead>
+<tbody><tr>
+<td align="right">O</td>
+<td align="center">(.)</td>
+<td></td>
+<td align="left">.</td>
+</tr></tbody>
+</table><p>and a <em>corolla</em> in the last dimension
+is called an <em>opetope</em>.</p>
+
+<p>Opetopes are normally drawn starting with dimension 0.</p>
+
+<ul>
+<li>a 0-dimensional opetope is (isomorphic to) a natural number</li>
+<li>the zoom in dimension 1 has a planar tree input</li>
+</ul><p><a href="http://sma.epfl.ch/%7Efinster/opetope/opetope.html">You can construct opetopes interactively.</a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="inductive-datatypes" class="anchor" href="#inductive-datatypes"></a>Inductive Datatypes</h1>
+
+<p>Finster gives <a href="http://sma.epfl.ch/%7Efinster/opetope/types-and-opetopes.pdf#page=26">data type</a> + <em>typechecker</em></p>
+
+<p>But <a href="http://en.wikipedia.org/wiki/Simply_typed_lambda_calculus#Intrinsic_vs._extrinsic_interpretations">intrinsic definition</a>
+of <code>Zoom</code>s <a href="https://code.google.com/p/omega/source/browse/trunk/tests/Opetope.prg">is possible</a>.</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="category-of-opetopes" class="anchor" href="#category-of-opetopes"></a>Category of Opetopes</h1>
+
+<p>Similarly defined as the category of singular complexes ∆</p>
+
+<p>Morphisms are face maps</p>
+
+<p>Identity morphism</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="pointers" class="anchor" href="#pointers"></a>Pointers</h2>
+
+<p>To <em>mark</em> (e.g.) a dot in a tree we use trees that only have one unit branch</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/pointer.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/pointer.svg" alt="A pointer" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="composition" class="anchor" href="#composition"></a>Composition</h2>
+
+<p>"pointer" tree to mark a unit branch</p>
+
+<p>then graft</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="substitution" class="anchor" href="#substitution"></a>Substitution</h2>
+
+<p>Mark an n-ary node (or disk), swap it for an n-ary tree</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/substitution.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/substitution.svg" alt="Substitute" style="max-width:100%;"></a></p>
+
+<p>Analogous to monadic <em>bind</em>.</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="geometric-realization" class="anchor" href="#geometric-realization"></a>Geometric Realization</h1>
+
+<p>As <em>pasting diagrams</em>.</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/pasting-diagram.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/pasting-diagram.svg" alt="Pasting diagram" style="max-width:100%;"></a></p>
+
+<p><a href="http://www-bcf.usc.edu/%7Elauda/xy/stringtutorial">As <em>string diagrams</em></a> (dual to the above).</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="coherence-conditions" class="anchor" href="#coherence-conditions"></a>Coherence conditions</h1>
+
+<p>Automatically "type-checked"</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="deductions-following-finster" class="anchor" href="#deductions-following-finster"></a>Deductions (following Finster)</h1>
+
+<p>Let's have a  <em>formal language</em> whose 'terms' are pasting diagrams.</p>
+
+<p>We (say) start out with a set of basic opetopes (<em>axioms</em>).</p>
+
+<p>What are the <em>deduction rules</em> to create new ones?</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="empty-rule" class="anchor" href="#empty-rule"></a>Empty rule</h2>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="paste-rule" class="anchor" href="#paste-rule"></a>Paste rule</h2>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="composite-rule" class="anchor" href="#composite-rule"></a>Composite rule</h2>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="universal-cell-introduction" class="anchor" href="#universal-cell-introduction"></a>Universal cell introduction</h2>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="universal-cell-elimination" class="anchor" href="#universal-cell-elimination"></a>Universal cell elimination</h2>
+
+<p>Similar to the <a href="http://homotopytypetheory.org/2011/04/10/just-kidding-understanding-identity-elimination-in-homotopy-type-theory/">J-rule</a></p>
+
+<p><a href="https://github-camo.global.ssl.fastly.net/cf1e1e9f24c2aa2b4a104441055dd725136def29/687474703a2f2f696d616765732e616d617a6f6e2e636f6d2f696d616765732f472f30312f6476642f63696e646572656c6c612d70756d706b696e2d6c617267652e6a7067" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/cf1e1e9f24c2aa2b4a104441055dd725136def29/687474703a2f2f696d616765732e616d617a6f6e2e636f6d2f696d616765732f472f30312f6476642f63696e646572656c6c612d70756d706b696e2d6c617267652e6a7067" alt="The power of the universal cell" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="can-we-obtain-cartesian-closure" class="anchor" href="#can-we-obtain-cartesian-closure"></a>Can we Obtain Cartesian Closure?</h1>
+
+<p>Tensor product on operads <a href="http://arxiv.org/pdf/math/0701293.pdf">http://arxiv.org/pdf/math/0701293.pdf</a></p>
+
+<p>Boardman-Vogt tensoring: <a href="http://arxiv.org/pdf/1302.3711.pdf">http://arxiv.org/pdf/1302.3711.pdf</a></p>
+
+<p>Operator categories: <a href="http://arxiv.org/pdf/1302.5756.pdf">http://arxiv.org/pdf/1302.5756.pdf</a></p>
+
+<p>Symmetric monoidal closed, yes, but cartesian?</p>
+
+<ul>
+<li>Gambino and Joyal: <a href="http://www1.maths.leeds.ac.uk/%7Epmtng/Research/Lectures/gambino-bmc.pdf">http://www1.maths.leeds.ac.uk/~pmtng/Research/Lectures/gambino-bmc.pdf</a>
+</li>
+</ul></div>
+<div class='slide markdown-body'><h1>
+<a name="excursion-lambda-calculus" class="anchor" href="#excursion-lambda-calculus"></a>Excursion: Lambda Calculus</h1>
+
+<p>Several notations, e.g. λ (with μ), <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.15.6554">item notation (Kamareddine, Nederpelt)</a></p>
+
+<p>let's come up with another one! (…see also Zena Ariola…)</p>
+
+<p><a href="https://omega.googlecode.com/svn/wiki/LambdaGraph.svg" target="_blank"><img src="https://omega.googlecode.com/svn/wiki/LambdaGraph.svg" alt="Lambda Graph" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="binary-search-tree" class="anchor" href="#binary-search-tree"></a>(Binary) search tree</h2>
+
+<p>We start with a lambda term
+<a href="https://github-camo.global.ssl.fastly.net/e0e700be099745e30bfdd218969ce2aa9f8c1390/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f285c6c616d62646120782e787829285c6c616d62646120782e787829" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/e0e700be099745e30bfdd218969ce2aa9f8c1390/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f285c6c616d62646120782e787829285c6c616d62646120782e787829" border="0" style="max-width:100%;"></a></p>
+
+<p>Respecting scope we build a search tree and retrofit it with references</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg" alt="Y combinator" style="max-width:100%;"></a></p>
+
+<p>Kind for shapes</p>
+
+<div class="highlight highlight-haskell"><pre><span class="nf">kind</span> <span class="kt">Sh</span> <span class="ow">=</span> <span class="kt">Ap</span> <span class="kt">Sh</span> <span class="kt">Sh</span> <span class="o">|</span> <span class="kt">Lm</span> <span class="kt">Sh</span> <span class="o">|</span> <span class="kt">Rf</span> <span class="kt">Ref</span>
+<span class="nf">kind</span> <span class="kt">Ref</span> <span class="ow">=</span> <span class="kt">Up</span> <span class="kt">Ref</span> <span class="o">|</span> <span class="kt">Stop</span> <span class="o">|</span> <span class="kt">Left</span> <span class="kt">Ref</span> <span class="o">|</span> <span class="kt">Right</span> <span class="kt">Ref</span> <span class="o">|</span> <span class="kt">Down</span> <span class="kt">Ref</span>
+</pre></div>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="abstraction--binders" class="anchor" href="#abstraction--binders"></a>Abstraction / Binders</h1>
+
+<p>Key insight: Trees admit naturals</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg" alt="Glue input" style="max-width:100%;"></a></p>
+
+<p>But we need <em>deBruijn</em> + <em>extra sauce</em></p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/docking-stations.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/docking-stations.svg" alt="Docking stations" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="references-identification-gluing" class="anchor" href="#references-identification-gluing"></a>References: Identification, gluing</h1>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/references.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/references.svg" alt="References" style="max-width:100%;"></a></p>
+
+<ul>
+<li>gluing an input on a (constructor) application ⟶ pattern matching</li>
+<li>… means: "application dot" here</li>
+<li>gluing inputs <em>vanish</em> from application</li>
+<li>n-ary application possible? semantics?</li>
+</ul></div>
+<div class='slide markdown-body'><h1>
+<a name="internal-hom" class="anchor" href="#internal-hom"></a>Internal Hom</h1>
+
+<p><code>(→)</code> is binary type constructor</p>
+
+<ul>
+<li>profunctor (contra-/covariant)</li>
+<li>Klein bottle (orientation-reversing)</li>
+</ul></div>
+<div class='slide markdown-body'><h2>
+<a name="test" class="anchor" href="#test"></a>test</h2>
+
+<p><a href="https://github-camo.global.ssl.fastly.net/23d1e31e281f37a3298b6a291a31700755277f9e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c667261637b647d7b64787d662878293d5c6c696d5f7b68205c746f20307d5c667261637b6628782b68292d662878297d7b687d" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/23d1e31e281f37a3298b6a291a31700755277f9e/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c667261637b647d7b64787d662878293d5c6c696d5f7b68205c746f20307d5c667261637b6628782b68292d662878297d7b687d" border="0" style="max-width:100%;"></a></p>
+
+<p><a href="https://github-camo.global.ssl.fastly.net/60190af05a818dc83079f4c9b561e6bdc9d5cbe3/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c6d61746862667b5365747d5e5c6d61746863616c7b4f7d5c72696768746172726f775c6d61746862667b4361747d5e5c6d61746863616c7b4f7d" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/60190af05a818dc83079f4c9b561e6bdc9d5cbe3/687474703a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c6d61746862667b5365747d5e5c6d61746863616c7b4f7d5c72696768746172726f775c6d61746862667b4361747d5e5c6d61746863616c7b4f7d" border="0" style="max-width:100%;"></a></p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/mathml.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/mathml.svg" alt="MathML test" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="strata-in-%CE%A9mega" class="anchor" href="#strata-in-%CE%A9mega"></a>Strata in Ωmega</h1>
+
+<p><a href="https://github-camo.global.ssl.fastly.net/8859cbfaee499e2c63877040ffd9b86250d18c96/687474703a2f2f6f6d6567612e676f6f676c65636f64652e636f6d2f73766e2f77696b692f4b696e642d6869657261726368792e737667" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/8859cbfaee499e2c63877040ffd9b86250d18c96/687474703a2f2f6f6d6567612e676f6f676c65636f64652e636f6d2f73766e2f77696b692f4b696e642d6869657261726368792e737667" alt="Type strata" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="singleton-types-in-haskell" class="anchor" href="#singleton-types-in-haskell"></a>Singleton Types in Haskell</h2>
+
+<p>Kind promotion</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/haskell-nats.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/haskell-nats.svg" alt="Nat'" style="max-width:100%;"></a></p>
+
+<div class="highlight highlight-haskell"><pre><span class="kr">data</span> <span class="cm">{- kind -}</span> <span class="kt">Nat</span> <span class="ow">=</span> <span class="kt">Z</span> <span class="o">|</span> <span class="kt">S</span> <span class="kt">Nat</span>
+
+<span class="kr">data</span> <span class="kt">Nat'</span> <span class="ow">::</span> <span class="kt">Nat</span> <span class="ow">-&gt;</span> <span class="o">*</span> <span class="kr">where</span>
+  <span class="kt">Z'</span> <span class="ow">::</span> <span class="kt">Nat'</span> <span class="kt">Z</span>
+  <span class="kt">S'</span> <span class="ow">::</span> <span class="kt">Nat'</span> <span class="n">n</span> <span class="ow">-&gt;</span> <span class="kt">Nat'</span> <span class="p">(</span><span class="kt">S</span> <span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="singleton-types-in-%CE%A9mega" class="anchor" href="#singleton-types-in-%CE%A9mega"></a>Singleton Types in Ωmega</h2>
+
+<p>Kind definitions possible (at any level)</p>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/omega-nats.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/omega-nats.svg" alt="Ωmega's Nat'" style="max-width:100%;"></a></p>
+
+<div class="highlight highlight-haskell"><pre><span class="nf">kind</span> <span class="kt">Nat</span> <span class="ow">=</span> <span class="kt">Z</span> <span class="o">|</span> <span class="kt">S</span> <span class="kt">Nat</span>
+
+<span class="kr">data</span> <span class="kt">Nat'</span> <span class="ow">::</span> <span class="kt">Nat</span> <span class="o">~&gt;</span> <span class="o">*</span> <span class="kr">where</span>
+  <span class="kt">Z'</span> <span class="ow">::</span> <span class="kt">Nat'</span> <span class="kt">Z</span>
+  <span class="kt">S'</span> <span class="ow">::</span> <span class="kt">Nat'</span> <span class="n">n</span> <span class="ow">-&gt;</span> <span class="kt">Nat'</span> <span class="p">(</span><span class="kt">S</span> <span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="level-polymorphism" class="anchor" href="#level-polymorphism"></a>Level Polymorphism</h2>
+
+<div class="highlight highlight-haskell"><pre><span class="kr">data</span> <span class="kt">Nat</span> <span class="ow">::</span> <span class="n">level</span> <span class="n">k</span> <span class="o">.</span> <span class="o">*</span><span class="n">k</span> <span class="kr">where</span>
+  <span class="kt">Z</span> <span class="ow">::</span> <span class="kt">Nat</span>
+  <span class="kt">S</span> <span class="ow">::</span> <span class="kt">Nat</span> <span class="o">~&gt;</span> <span class="kt">Nat</span>
+</pre></div>
+
+<p><a href="https://rawgithub.com/ggreif/seminar-opetope/master/omega-levels.svg" target="_blank"><img src="https://rawgithub.com/ggreif/seminar-opetope/master/omega-levels.svg" alt="Ωmega's level polymorphism" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="can-we-please-have-curry-howard-back" class="anchor" href="#can-we-please-have-curry-howard-back"></a>Can we please have Curry-Howard back?</h2>
+
+<p>C-H lost as level-polymorphic type <code>Nat</code> above has no type parameter/index!</p>
+
+<p>Idea: parametrize with the same thing, but from one level up...</p>
+
+<p>Unfortunately this is not working out :-(</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="next-idea" class="anchor" href="#next-idea"></a>Next idea</h2>
+
+<p>parametrize on the <strong>left</strong>. Make access to parameter <em>optional</em>.</p>
+
+<p>these all mean the same thing:</p>
+
+<div class="highlight highlight-haskell"><pre><span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="kt">Nat</span>
+<span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="kt">S</span> <span class="kt">Z</span> <span class="err">°</span> <span class="kt">Nat</span>
+<span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="kt">Nat</span><span class="p">)</span> <span class="err">°</span> <span class="kt">Nat</span>
+<span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="p">(</span><span class="kt">S</span> <span class="kt">Z</span> <span class="ow">::</span> <span class="kt">S</span> <span class="kt">Z</span> <span class="err">°</span> <span class="kt">Nat</span><span class="p">)</span> <span class="err">°</span> <span class="kt">Nat</span>
+</pre></div>
+
+<p>Ad infinitum, coinductively.</p>
+
+</div>
+<div class='slide markdown-body'><h2>
+<a name="programming-in-the-sky" class="anchor" href="#programming-in-the-sky"></a><em>Programming in the Sky</em>
+</h2>
+
+<p>Program in the colimit. Write a very simple <code>data</code> definition</p>
+
+<div class="highlight highlight-haskell"><pre><span class="kr">data</span> <span class="kt">Nat</span> <span class="ow">=</span> <span class="kt">Z</span> <span class="o">|</span> <span class="kt">S</span> <span class="kt">Nat</span>
+</pre></div>
+
+<p>But have the refinement structure available when wanting to
+state type-level propositions.</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="questions" class="anchor" href="#questions"></a>Questions?</h1>
+
+<p>Thanks for your attention!</p>
+
+<p>Btw. I am looking for collaborators</p>
+
+<ol>
+<li>to make these ideas precise</li>
+<li>kick-start an initial implementation.</li>
+</ol>
+</div>
+  </body>
+</html>
