@@ -365,7 +365,7 @@ state type-level propositions.
 Conclusion
 ===========
 
- 1. Opetopic calculus is very interesting
+ 1. Opetopic calculus is rich and very interesting
  2. It appears to be a solid basis for stratified type systems
  3. Cartesian closure not completely understood yet
 
