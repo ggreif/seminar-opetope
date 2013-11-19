@@ -130,9 +130,9 @@ Category of Opetopes
 
 Similarly defined as the category of singular complexes ∆
 
-Morphisms are face maps
+ - Morphisms are face maps (corresponding to each 'round-ish thing')
 
-Identity morphism
+ - Identity morphism (the top cell)
 
 Pointers
 ---------
