@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="326.99847"
-   height="365.55768"
+   width="327.0173"
+   height="364.30756"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9943 custom"
-   sodipodi:docname="lg.svg">
+   sodipodi:docname="y-comb.svg">
   <defs
      id="defs4">
     <marker
@@ -55,16 +55,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="339.4527"
-     inkscape:cy="217.40409"
+     inkscape:cx="339.46774"
+     inkscape:cy="217.40408"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="true"
      inkscape:window-width="1448"
      inkscape:window-height="803"
-     inkscape:window-x="227"
-     inkscape:window-y="327"
+     inkscape:window-x="186"
+     inkscape:window-y="353"
      inkscape:window-maximized="0"
      fit-margin-top="10"
      fit-margin-left="10"
@@ -86,7 +86,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-151.7539,-32.74748)">
+     transform="translate(-151.73886,-33.997597)">
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
