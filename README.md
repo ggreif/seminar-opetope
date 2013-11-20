@@ -189,12 +189,18 @@ Empty rule
 
 From any opetope one can derive an empty pasting diagram one dimension up.
 
-[See the corolla zoom](#special-case-corolla).
+[See the corolla zoom](#special-case-corolla). It only shows the highest-dimensional
+zoom, but that is ok as nothing below changes.
 
 Paste rule
 -----------
 
+Given _n_ pasting diagrams and a cell (corolla) with _n_ branches
 
+ - such that the target cells of the pasting diagrams match the (input) branches
+ - then a bigger pasting diagram can be created
+
+[See](#composition), which is the atomic operation enabling this rule.
 
 Composite rule
 ---------------
