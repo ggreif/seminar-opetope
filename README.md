@@ -51,7 +51,7 @@ Then we compose zooms to compexes, subject to boundary conditions.
 Zoom definition
 ----------------
 
-![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/master/zoom.svg)
+![A typical zoom](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/zoom.svg)
 
 Input data: finite rooted (planar) trees (the nth dimension)
 
@@ -63,7 +63,7 @@ Freely decorate with disks, adhering to rules:
 Input-to-output translation
 ----------------------------
 
-[Just change the perspective!](https://github.com/ggreif/seminar-opetope/blob/master/opetope2.stl)
+[Just change the perspective!](https://github.com/ggreif/seminar-opetope/blob/2013-11-19/opetope2.stl)
 
 Translate to tree in the (n+1)th dimension
 
@@ -78,11 +78,11 @@ Special case: _corolla_
 
 A _corolla_ is a special zoom with just one dot in the left tree and no disks.
 
-![A corolla](https://rawgithub.com/ggreif/seminar-opetope/master/corolla.svg)
+![A corolla](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/corolla.svg)
 
 The output tree is thus a _unit branch_:
 
-![Corolla in zoom view](https://rawgithub.com/ggreif/seminar-opetope/master/corolla-zoom.svg)
+![Corolla in zoom view](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/corolla-zoom.svg)
 
 
 Assembling the complex
@@ -90,11 +90,11 @@ Assembling the complex
 
 The trees have labelled branches and dots (without repetition)
 
-![Labelled zoom](https://rawgithub.com/ggreif/seminar-opetope/master/labelled-zoom.svg)
+![Labelled zoom](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/labelled-zoom.svg)
 
 Zooms can be joined when the trees match, forming a _zoom complex_.
 
-![Formed complex](https://rawgithub.com/ggreif/seminar-opetope/master/zoom-complex.svg)
+![Formed complex](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/zoom-complex.svg)
 
 
 Opetope
@@ -139,7 +139,7 @@ Pointers
 
 To _mark_ (e.g.) a dot in a tree we use trees that only have one unit branch
 
-![A pointer](https://rawgithub.com/ggreif/seminar-opetope/master/pointer.svg)
+![A pointer](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/pointer.svg)
 
 Composition
 ------------
@@ -153,7 +153,7 @@ Substitution
 
 Mark an n-ary node (or disk), swap it for an n-ary tree
 
-![Substitute](https://rawgithub.com/ggreif/seminar-opetope/master/substitution.svg)
+![Substitute](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/substitution.svg)
 
 Analogous to monadic _bind_.
 
@@ -162,7 +162,7 @@ Geometric Realization
 
 As _pasting diagrams_.
 
-![Pasting diagram](https://rawgithub.com/ggreif/seminar-opetope/master/pasting-diagram.svg)
+![Pasting diagram](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/pasting-diagram.svg)
 
 
 [As _string diagrams_](http://www-bcf.usc.edu/~lauda/xy/stringtutorial) (dual to the above).
@@ -232,7 +232,7 @@ We start with a lambda term
 
 Respecting scope we build a search tree and retrofit it with references
 
-![Y combinator](https://rawgithub.com/ggreif/seminar-opetope/master/y-comb.svg)
+![Y combinator](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/y-comb.svg)
 
 Kind for shapes
 ``` haskell
@@ -245,17 +245,17 @@ Abstraction / Binders
 
 Key insight: Trees admit naturals
 
-![Glue input](https://rawgithub.com/ggreif/seminar-opetope/master/glue-downstream.svg)
+![Glue input](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/glue-downstream.svg)
 
 But we need _deBruijn_ + _extra sauce_
 
-![Docking stations](https://rawgithub.com/ggreif/seminar-opetope/master/docking-stations.svg)
+![Docking stations](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/docking-stations.svg)
 
 
 References: Identification, gluing
 ===================================
 
-![References](https://rawgithub.com/ggreif/seminar-opetope/master/references.svg)
+![References](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/references.svg)
 
  - gluing an input on a (constructor) application ⟶ pattern matching
  - … means: "application dot" here
@@ -280,7 +280,7 @@ Singleton Types in Haskell
 
 Kind promotion
 
-![Nat'](https://rawgithub.com/ggreif/seminar-opetope/master/haskell-nats.svg)
+![Nat'](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/haskell-nats.svg)
 
 ``` haskell
 data {- kind -} Nat = Z | S Nat
@@ -295,7 +295,7 @@ Singleton Types in Ωmega
 
 Kind definitions possible (at any level)
 
-![Ωmega's Nat'](https://rawgithub.com/ggreif/seminar-opetope/master/omega-nats.svg)
+![Ωmega's Nat'](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/omega-nats.svg)
 
 ``` haskell
 kind Nat = Z | S Nat
@@ -314,7 +314,7 @@ data Nat :: level k . *k where
   S :: Nat ~> Nat
 ```
 
-![Ωmega's level polymorphism](https://rawgithub.com/ggreif/seminar-opetope/master/omega-levels.svg)
+![Ωmega's level polymorphism](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/omega-levels.svg)
 
 Can we please have Curry-Howard back?
 --------------------------------------
@@ -327,7 +327,7 @@ Unfortunately this is not working out :-(
 
 I tried:
 
-![A failure](https://rawgithub.com/ggreif/seminar-opetope/master/singleton-levels.svg)
+![A failure](https://rawgithub.com/ggreif/seminar-opetope/2013-11-19/singleton-levels.svg)
 
 For a few levels (each differently named) [it can be made](https://code.google.com/p/omega/wiki/AutoLevelled#%CE%A9mega_example_for_%E2%80%B9%E2%80%B9Pat%E2%80%BA%E2%80%BA).
 
