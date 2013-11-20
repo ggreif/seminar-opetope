@@ -187,8 +187,14 @@ What are the _deduction rules_ to create new ones?
 Empty rule
 -----------
 
+From any opetope one can derive an empty pasting diagram one dimension up.
+
+[See the corolla zoom](#special-case-corolla).
+
 Paste rule
 -----------
+
+
 
 Composite rule
 ---------------
