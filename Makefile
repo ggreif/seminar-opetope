@@ -8,7 +8,7 @@ opetope.html: opetope.raw slidy.awk
 .PHONY: clean pull regenerate
 
 clean:
-	rm opetope.raw
+	rm -f opetope.raw
 
 pull:
 	git pull --rebase
