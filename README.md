@@ -200,7 +200,7 @@ Given _n_ pasting diagrams and a cell (corolla) with _n_ branches
  - such that the target cells of the pasting diagrams match the (input) branches
  - then a bigger pasting diagram can be created
 
-[See](#composition), which is the atomic operation enabling this rule.
+[See pointer guided composition](#composition), which is the atomic operation underlying this rule.
 
 Composite rule
 ---------------
