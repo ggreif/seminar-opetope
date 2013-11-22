@@ -271,8 +271,18 @@ References: Identification, gluing
 
  - gluing an input on a (constructor) application ⟶ pattern matching
  - … means: "application dot" here
- - gluing inputs _vanish_ from application
+ - gluing inputs _vanish_ from application dot
  - n-ary application possible? semantics?
+
+Beta-reduction
+===============
+
+When a selected external branch is _saturated_ by application,
+it completely dissolves, and the addressed binding station
+gets glued to the argument.
+
+Depending on the intended reduction strategy the _use_ references
+may be expanded (_unsharing_).
 
 Internal Hom
 =============
