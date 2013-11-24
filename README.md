@@ -97,7 +97,7 @@ Zooms can be joined when the trees match, forming a _zoom complex_.
 ![Formed complex](https://rawgithub.com/ggreif/seminar-opetope/master/zoom-complex.svg)
 
 _Note:_ These complexes form a [semicategory](http://ncatlab.org/nlab/show/semicategory),
-there are input trees not admitting an identity zoom (e.g. unit tree, corollas).
+as there are input trees not admitting an identity zoom (e.g. unit tree, most corollas).
 
 
 Opetope
@@ -109,7 +109,7 @@ A zoom complex with dimensions
 |---:|:---:|---|:--|
 | O  | (.) |   | . |
 
-and a _corolla_ in the last dimension
+and a _corolla_ appearing in the last dimension
 is called an _opetope_.
 
 Opetopes are normally drawn starting with dimension 0.
