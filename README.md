@@ -27,7 +27,7 @@ Various researchers/groups contributed since, and similar concepts go by a multi
  - Opetopes – Eugenia Cheng (e.g. [arXiv:math/0304284](http://arxiv.org/pdf/math/0304284.pdf))
  - "positive-to-one computads" – Marek Zawadowski, [arXiv:0708.2658](http://arxiv.org/pdf/0708.2658.pdf)
  - Szawiel, Marek Zawadowski	[arXiv:1011.2374](http://arxiv.org/pdf/1011.2374.pdf)
- - Joachim Kock, et al. [arXiv:0706.1033](http://arxiv.org/pdf/0706.1033.pdf)
+ - Joachim Kock, _et al_. [arXiv:0706.1033](http://arxiv.org/pdf/0706.1033.pdf)
 
 At IAS:
 
