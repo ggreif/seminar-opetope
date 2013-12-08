@@ -7,7 +7,7 @@ Seminar 2013-11-19
 My goals:
  1. form an intuition of opetopic sets
  2. sketch a calculus of (string) diagrams
- 3. discuss missing the piece of cartesian closure
+ 3. discuss the missing piece of cartesian closure
  4. potential applications to Ωmega 2.0
 
 
