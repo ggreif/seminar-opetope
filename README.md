@@ -187,7 +187,7 @@ What are the _deduction rules_ to create new ones?
 
 <img src="http://latex.codecogs.com/svg.latex?\mathbf{Set}^\mathcal{O}\rightarrow\mathbf{Cat}^\mathcal{O}" border="0"/>
 
-N.B. How deductions (proof trees) map to adjuctions in Cat is [nicely described here](http://www.cs.cmu.edu/~edmo/research/articles/morehouse-2013-thesis.pdf).
+N.B.: How deductions (proof trees) map to adjuctions in Cat is [nicely described here](http://www.cs.cmu.edu/~edmo/research/articles/morehouse-2013-thesis.pdf).
 
 Empty rule
 -----------
